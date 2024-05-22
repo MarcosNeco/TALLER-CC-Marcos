@@ -170,16 +170,8 @@ group by sales_person_id
 ) as agg_sp on sp.sales_person_id = agg_sp.sales_person_id
 
 
+-- Question 5
 
-
--- Question 6
-
--- Students
--- Teachers
--- Attendance
--- Assignments
--- Grades
--- Classes
 
 -- Student table
   
@@ -195,8 +187,18 @@ group by sales_person_id
 -- assigments table 
   -- should have a reference for teacher and student
 
+--grades table
+ -- should have a reference for teacher, classes and student
+
 -- classes 
   -- should have a reference for teacher
+
+
+
+--question 6 
+
+-- create a fact table where we need to have id student, id_teacher, grade, year, month 
+-- create an dimensions for teacher, student, grade...
 
 
 
